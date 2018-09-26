@@ -1715,45 +1715,4 @@
         
     </div>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-
-
-
 </body></html>
-
-    <script>/*
-        
-         function timeConverter(UNIX_timestamp){
-          var a = new Date(UNIX_timestamp * 1000);
-          var months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
-          var year = a.getFullYear();
-          var month = months[a.getMonth()];
-          var date = a.getDate();
-          var hour = a.getHours();
-          var min = a.getMinutes();
-          var sec = a.getSeconds();
-          var time = date + ' ' + month + ' ' + year + ' ' + hour + ':' + min + ':' + sec ;
-          return time;
-        }  
-            $("a").each(function() {
-              $(this).removeAttr('icon')
-              var date = $(this).attr('add_date');
-              date = parseInt(date)
-              date = timeConverter(date)
-              img = '<img src="https://www.google.com/s2/favicons?domain=' + this.href + '">';     
-              text = $(this).clone().children().remove().end().text(); 
-              console.log(text)
-              //$(this).html('<p class="date">'+date+'</p>'+img+'<p class="text">'+text+'</p>');
-              $(this).find('.date').html('<span>'+date+'</span>');
-            })
-        
-
-        var elems = $.makeArray($("a"));
-        elems.sort(function(a, b) {
-
-            return new Date($(a).find('.date').text()) < new Date($(b).find('.date').text());
-        });
-        $(".x").html(elems);*/
-
-
-    </script>
