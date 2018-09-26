@@ -1,4 +1,4 @@
-# google-bookmark-memories-of-2-years
+# Google bookmark memories of 2 years
 
 Merhaba ben Kadir,<br/>
 Bunlar ise benim 2 yıldan daha fazla bir süre boyunca Google'da yer işaretleri olarak kaydettiğim linklerdir.
